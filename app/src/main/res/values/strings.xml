@@ -1,0 +1,94 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">ClinicApp</string>
+
+    <!-- Label for overflow menu option that inserts fake patient data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all patient data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Patients</string>
+
+    <!-- Title for the activity to add a new patient [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_patient">Add a Patient</string>
+
+    <!-- Label for editor menu option to save patient and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current patient [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_gender">Gender</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_patient_name">Name</string>
+
+    <!-- Text hint for age field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_patient_age">Age</string>
+
+    <!-- Text hint for address field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_patient_address">Address</string>
+
+    <!-- Text hint for diease description field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_diease_desc">Diease description</string>
+
+    <!-- Text hint for medicine field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_medicine">Medicine</string>
+
+    <!-- Label for dropdown menu option if the patient's gender is unknown [CHAR LIMIT=20] -->
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the patient is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the patient is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+    <!-- Toast message in editor when new patient has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_patient_successful">Patient saved</string>
+
+    <!-- Toast message in editor when new patient has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_patient_failed">Error with saving patient</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a patienr [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a patient</string>
+
+    <!-- Title for the activity to edit an existing patient [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_patient">Edit Patient</string>
+
+    <!-- Toast message in editor when current patient was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_patient_successful">Patient updated</string>
+
+    <!-- Toast message in editor when current patient has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_patient_failed">Error with updating patient</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this pشفهثىف?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_patient_successful">Patient deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_patient_failed">Error with deleting patient</string>
+</resources>
